@@ -46,9 +46,54 @@ section {
   margin: 0 0 20px 0;
 }
 
-.card {
-  border-radius: 2px;
-  background-color: white;
+.icon {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 45.6%;
+    height: 50%;
+}
+
+.icon .bobble {
+    width: 12.5%;
+    height: 12%;
+    border-radius: 100%;
+    margin: 5% auto -3.8%;
+}
+
+.antenna {
+    width: 6%;
+    margin: 0 auto 4%;
+    height: 16.5%;
+    border-bottom-left-radius: 80% 30%;
+    border-bottom-right-radius: 80% 30%;
+}
+
+.head {
+    width: 100%;
+    height: 48.5%;
+    border-top-left-radius: 15% 25%;
+    border-top-right-radius: 15% 25%;
+    position: relative;
+}
+
+.head .eye {
+    width: 18%;
+    height: 33.5%;
+    margin: 0 18.2%;
+    border-radius: 100%;
+    background-color: #d63b59;
+    display: inline-block;
+    position: absolute;
+    top: 26%;
+    left: 0px;
+    -webkit-animation: blink 5s 2s infinite;
+    animation: blink 5s 2s infinite;
+}
+
+.eye.right {
+    left: auto;
+    right: 0;
 }
 
 
