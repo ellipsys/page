@@ -10,13 +10,6 @@ body {
 
 
 
-section {
-  display: block;
-  margin: 0 0 20px 0;
-}
-
-
-
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -35,6 +28,13 @@ header h1 {
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
+
+
+section {
+  display: block;
+  margin: 0 0 20px 0;
+}
+
 
 
 
