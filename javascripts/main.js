@@ -5,6 +5,6 @@ if ('serviceWorker' in navigator) {                                   // Primero
                                                                       //   en la raíz de nuestra app para que tenga acceso a todos los archivos
     console.log('Service worker registrado :D');
   }).catch(err => {
-    console.warn(':( Algo pasó: ', err);
+    console.log(':( Algo pasó: ', err);
   });
 }
