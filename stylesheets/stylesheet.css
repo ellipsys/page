@@ -10,7 +10,7 @@ body {
 
 /* General & 'Reset' Stuff */
 
-.container {
+.cont {
   border-radius:2px;
   width: 90%;
   max-width: 600px;
