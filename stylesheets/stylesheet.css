@@ -19,7 +19,7 @@ header {
 
 header h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 1.9;
   margin: 0 0 0 -40px;
   font-weight: bold;
@@ -30,8 +30,8 @@ header h1 {
 }
 header h2{
   text-align: center;
-  font-size: 10px;
-  line-height: 1.4;
+  font-size: 40px;
+  line-height: 1.7;
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
