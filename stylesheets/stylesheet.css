@@ -50,7 +50,8 @@ header h2{
 a:link   
 {   
  text-decoration:none;
- color: white; 
+ color: white;
+ color: rgba(252, 255, 247, 0.94);
  
 } 
 
