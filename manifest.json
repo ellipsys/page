@@ -3,7 +3,7 @@
   "short_name": "Ellipsys",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "images/icon.png",
       "type": "image/png",
       "sizes": "48x48"
     }
