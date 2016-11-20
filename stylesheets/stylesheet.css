@@ -26,7 +26,7 @@ header h1 {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: rgba(252, 255, 247, 0.94);
   letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
+  
 }
 header h2{
   text-align: center;
@@ -37,10 +37,12 @@ header h2{
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   color: rgba(252, 255, 247, 0.94);
   letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
+  
 }
 .barra {
   text-align: center;
+  font-size: 30px;
+  color: white;
 }
 
 
