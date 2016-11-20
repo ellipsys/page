@@ -115,6 +115,10 @@ section {
     margin: 3.6% auto 0;
 }
 
+.nodebot .icon * {
+    background: #2e2e2c;
+}
+ 
 .nodebot .neck:last-child {
     width: 48%;
 }
