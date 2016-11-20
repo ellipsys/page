@@ -47,6 +47,12 @@ header h2{
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   text-decoration:none; 
 }
+a:link   
+{   
+ text-decoration:none;
+ color: rgba(0, 0, 0, 0.1); 
+ 
+} 
 
 
 section {
