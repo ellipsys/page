@@ -42,9 +42,10 @@ header h2{
 .barra {
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: rgba(0, 0, 0, 0.1); 
   line-height: 1.5;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-decoration:none; 
 }
 
 
