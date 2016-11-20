@@ -19,3 +19,22 @@ self.addEventListener('install', function(event) {
       })
   );
 });
+
+ self.addEventListener('activate', event => {   // Escuchamos al evento 'activate'
+  event.waitUntil(self.clients.claim());        // El SW se registra como el worker activo para el cliente actual 
+
+  event.waitUntil(
+    caches.keys().then(cacheNames => {          // Toma las caches existentes
+
+      return Promise.all(
+        cacheNames.map(cacheName => {           // Recorremos las caches exitentes
+          if (FILE_CACHE !== cacheName) {     // Si la caché del recorrido no es la caché actual...  
+            return caches.delete(cacheName);    // La borramos, así conservamos únicamente la más reciente
+            console.log('funciono');
+          }
+        })
+      );
+
+    })
+  );
+});
