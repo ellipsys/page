@@ -39,6 +39,9 @@ header h2{
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
+.barra {
+  text-align: center;
+}
 
 
 section {
