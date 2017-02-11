@@ -30,7 +30,7 @@
    z-index:1; 
    
   }
- .c { 
+ .c,.d { 
   height:2520pt; 
   overflow:hidden; 
   cursor:default; 
