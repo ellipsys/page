@@ -6,7 +6,7 @@ const archivos_cache = [       // Array de las urls de los archivos que quiero g
   'javascripts/main.js',
   'images/x-icon.png',
   'stylesheets/stylesheet.css',
-  'javascripts/tests.js'
+  'javascripts/test.js'
   
   
 ];
