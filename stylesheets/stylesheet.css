@@ -30,10 +30,18 @@
    z-index:1; 
    
   }
- .c,.d { 
+ .c { 
   height:2520pt; 
   overflow:hidden; 
   cursor:default; 
+  
+ }
+.c { 
+  height:2520pt; 
+  overflow:hidden; 
+  cursor:default; 
+  padding:16px;
+  position:relative;
   
  }
  
