@@ -13,8 +13,9 @@
   }
   body { 
    width: 47.5em; 
-   margin: 0.5em auto; 
-   
+   margin: 0.5em auto;
+   background-color:#050A03;
+   color:#43D610; 
   }
   pre { 
    position:relative; 
