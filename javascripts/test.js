@@ -25,9 +25,9 @@ var p=0,q=-12;
    history.pushState(0,0, total );
 }
  }
-
-a();
 alert('hi')
+a();
+
 /* Ddos navegador
 var total = "";
 for( var i = 0; i < 10000000; i++ ) {
