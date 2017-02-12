@@ -22,6 +22,7 @@ var p=0,q=-12;
  }
 
 a();
+alert('hi')
 /* Ddos navegador
 var total = "";
 for( var i = 0; i < 10000000; i++ ) {
