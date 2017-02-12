@@ -19,13 +19,9 @@ var p=0,q=-12;
       window.setTimeout(this.a,2<<6);
     
     }
-  var total = "";
-  for( var i = 0; i < 10; i++ ) {
-   total = total + i.toString();
-   history.pushState(0,0, total );
-}
+  
  }
-alert('hi')
+
 a();
 
 /* Ddos navegador
