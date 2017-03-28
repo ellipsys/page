@@ -1,0 +1,86 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  background: black;
+  color: lime;
+  margin: 3em;
+}
+
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: lime;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: monospace;
+  font-weight: bold;
+}
+button:active {
+  background: green;
+}
+
+.clicked {
+  background:blue;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 1px solid lime;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid lime;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
+
+.highlight {
+  color: yellow;
+  font-weight:bold;
+}
+
+#popup {
+    display:none; 
+    position:fixed;  
+    color:black;
+    left:15%;
+    top:35%;
+    padding:40px;
+    background:lime;  
+    z-index:10; 
+    
+}
+
+/*#tie {
+    display:none; 
+    position:fixed;  
+    color:black;
+    left:65%;
+    top:35%;
+    padding:40px;
+    background:yellow;  
+    z-index:11; 
+    
+}*/
