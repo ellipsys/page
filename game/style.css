@@ -37,7 +37,7 @@ button:active {
   border: 2px solid white;
 }
 .scoreboard h2 {
-  border-bottom: 1px solid lime;
+  border-bottom: 2px solid white;
   margin: 0;
   padding: 10px;
 }
