@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   text-align: center;
   background: #009999;
-  color: lime;
+  color: white;
   margin: 3em;
 }
 
@@ -29,7 +29,8 @@ button:active {
 .clicked {
   background:blue;
 }
-
+#name {
+}
 .scoreboard {
   width: 14em;
   margin: auto;
