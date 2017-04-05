@@ -10,7 +10,7 @@
 
 var userChoices = ['rock', 'paper', 'scissors'];
 
-
+alert("Empiezo");
 
 $('#rock').click(function(){
   $("#result").text(playsGame("rock", randomChoice()));
