@@ -10,7 +10,7 @@
 
 var userChoices = ['rock', 'paper', 'scissors'];
 
-alert("Empiezo");
+//alert("Empiezo");
 
 $('#rock').click(function(){
   $("#result").text(playsGame("rock", randomChoice()));
@@ -30,6 +30,7 @@ function playsGame(userChoice, computerChoice){
   $('#computer_choice').text("computer choice was " + computerChoice);
   if (computerChoice == userChoice){
     return "draw!";
+    alert("draw");
   }
   switch (userChoice) {
     case "rock":
@@ -44,10 +45,14 @@ function playsGame(userChoice, computerChoice){
     break;
     case "scissors":
     if (computerChoice == "rock"){
+      alert("computer won");
       return "computer won";
+      
     }
   }
+  alert("you won");
   return "you won!"
+  
 }
 
 function randomChoice(){
