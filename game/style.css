@@ -20,7 +20,7 @@ button {
   font-size: 1.2em;
   font-family: monospace;
   font-weight: bold;
-  border-radius: 15px;
+  
 }
 button:active {
   background: green;
