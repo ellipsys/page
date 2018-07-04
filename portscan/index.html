@@ -1,0 +1,36 @@
+<html>
+<head>
+<script
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+  type="text/javascript"></script>
+<script
+  src="portscanner.js"
+  type="text/javascript"></script>
+<script>
+	$(document).ready(function() {
+		portscanner.init();
+	});
+</script>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>host:port</th>
+      <th>status</th>
+    </tr>
+    <tr>
+      <td>github.com:443</td>
+      <td><span class="portscanner">github.com:443</span></td>
+    </tr>
+    <tr>
+      <td>github.com:80</td>
+      <td><span class="portscanner">github.com:80</span></td>
+    </tr>
+    <tr>
+      <td>github.com:8080</td>
+      <td><span class="portscanner">github.com:8080</span></td>
+    </tr>
+  </table>
+</body>
+
+</html>
