@@ -1,8 +1,8 @@
 
     /* The scanner needs these global variables for an ugly hack. */
-    var last_scanobj_index = 0;
-    var scanobjs = {};
-    function PortScanner(ip, port)
+var last_scanobj_index = 0;
+var scanobjs = {};
+function PortScanner(ip, port)
     {
         
         this.ip = ip;
@@ -50,8 +50,7 @@
             );
         }
     }
-
-    function error_handler(index)
+function error_handler(index)
     {
         /* Get the PortScanner object back. */
         var thiss = scanobjs[index];
@@ -74,8 +73,7 @@
             thiss.on_stealthed();
         }
     }
-
-    function custom_scan(form)
+function custom_scan(form)
     {
         var ip = form.custom_ipaddr.value;
         var port = form.custom_port.value;
