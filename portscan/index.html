@@ -1,36 +1,53 @@
-<html>
+<html lang="en">
 <head>
-<script
-  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-  type="text/javascript"></script>
-<script
-  src="portscanner.js"
-  type="text/javascript"></script>
-<script>
-	$(document).ready(function() {
-		portscanner.init();
-	});
-</script>
+    <title>JS-Recon - HTML5 based JavaScript Network Reconnaissance Tool</title>
+    <link rel="stylesheet" media="all" type="text/css" href="main.css" />
 </head>
 <body>
-  <table>
-    <tr>
-      <th>host:port</th>
-      <th>status</th>
-    </tr>
-    <tr>
-      <td>github.com:443</td>
-      <td><span class="portscanner">github.com:443</span></td>
-    </tr>
-    <tr>
-      <td>github.com:80</td>
-      <td><span class="portscanner">github.com:80</span></td>
-    </tr>
-    <tr>
-      <td>github.com:8080</td>
-      <td><span class="portscanner">github.com:8080</span></td>
-    </tr>
-  </table>
-</body>
+    <script type="text/javascript" src="upvote.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="scanner.js"></script>
+<div id="form">
+    
 
+
+    <p>
+        <strong>Local Network Scan (Proof of Concept)</strong>
+    </p>
+
+    <form>
+        <input type="button" id="lan_button" value="Scan 192.168.1.* port 80" onclick="lan_scan(this.form);" />
+        <input type="button" id="lan_button_stop" value="Stop Scan" onclick="lan_stop(this.form);" disabled="disabled"/>
+    </form>
+
+    <div id="lan_results" style="padding-top: 10px;"></div>
+
+    <p>
+        <strong>Custom Scan</strong>
+    </p>
+
+    <form>
+        <table>
+            <tr>
+                <td>IP Address:&nbsp;&nbsp;</td>
+                <td><input type="text" name="custom_ipaddr" value=""></input></td>
+            </tr>
+            <tr>
+                <td>Port:</td>
+                <td><input type="text" name="custom_port" value=""></input></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    <input type="button" value="Scan" id="custom_button" onclick="custom_scan(this.form);" />
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <div id="custom_result"></div>
+
+</div>
+
+</body>
 </html>
